@@ -4,7 +4,7 @@ import time
 
 DEFAULT_TIME_INTERVAL_IN_SEC = 60
 direction_delta = [[1, 0], [-1, 0], [0, 1], [0, - 1]]
-move_ratio = 0.1
+move_ratio = 10
 
 while(True):
     for each_direction in direction_delta:
